@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+html {
+    font-family: "Libre Baskerville", serif;
+    scroll-behavior: smooth;
+    background-color: #F5F3F0;
+}
+
+body {
+    color: #333;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+hr {
+    width:20%;
+    margin: 40px auto;
+    border: 1px solid #DDD;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 20px 0 16px 0;
+    background-color: #F5F3F0;
+    border-bottom: 1px solid #DDD;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+nav img {
+    width: 32px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #666;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+main {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #DDD;
+}
+
+main p {
+    text-align: justify;
+    line-height: 2rem;
+}
+
+main a {
+    text-decoration: none;
+    color: #666;
+    border-bottom: 1px solid #888;
+}
+
+main a:hover {
+    color: #000;
+    border-bottom: 2px solid #888;
+}
+
+section.feature {
+    margin: 60px auto;
+    text-align: center;
+}
+
+section.feature h1 {
+    font-size: 2.5rem;
+    margin: 20px auto;
+}
+
+section.feature h2 {
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: italic;
+    color: #666;
+}
+
+section.feature img {
+    width: 180px;
+    margin: 40px 0;
+}
+
+section.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.gallery img {
+    width: 48%;
+    margin: 0;
+    margin-bottom: 4%;
+}
+
+footer {
+    margin: 32px 0 60px 0;
+    font-size: .8rem;
+    text-align: center;
+    color: #666;
+}
+
+footer nav {
+    margin-bottom: 60px;
+}
+
+/* Mobile Breakpoints */
+
+@media only screen and (max-width: 1000px) {
+    
+    body {
+        max-width: 90%;
+    }
+
+    section.gallery img {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 4%;
+    }
+}
