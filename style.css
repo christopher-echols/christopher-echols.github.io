@@ -120,6 +120,7 @@ footer {
 
 footer nav {
     margin-bottom: 60px;
+    text-align: left;
 }
 
 /* Mobile Breakpoints */
