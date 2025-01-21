@@ -3,7 +3,7 @@
 html {
     font-family: "Libre Baskerville", serif;
     scroll-behavior: smooth;
-    background-color: #F5F3F0;
+    background-color: #FAf7EF;
 }
 
 body {
@@ -25,38 +25,31 @@ blockquote{
 hr {
     width:20%;
     margin: 40px auto;
-    border: 1px solid #DDD;
+    border: 1px solid #E2D3B3;
 }
 
 header {
     position: sticky;
     top: 0;
     padding: 20px 0 16px 0;
-    background-color: #F5F3F0;
-    border-bottom: 1px solid #DDD;
+    background-color: #FAf7EF;
+    border-bottom: 1px solid #D8D3C8;
 }
 
-nav {
+header nav {
     text-align: center;
 }
 
-nav img {
+header nav img {
     width: 32px;
 }
 
-nav a {
-    text-decoration: none;
-    color: #666;
-}
-
-nav a:hover {
-    text-decoration: underline;
-    color: #333;
+header nav a, header nav a:hover {
+    border-bottom: none;
 }
 
 main {
     padding-bottom: 40px;
-    border-bottom: 1px solid #DDD;
 }
 
 main p {
@@ -64,15 +57,15 @@ main p {
     line-height: 2rem;
 }
 
-main a {
+a {
     text-decoration: none;
-    color: #666;
-    border-bottom: 1px solid #888;
+    color: #555349;
+    border-bottom: 1px solid #D8D3C8;
 }
 
-main a:hover {
+a:hover {
     color: #000;
-    border-bottom: 2px solid #888;
+    border-bottom: 1px solid #000;
 }
 
 section.feature {
@@ -89,13 +82,32 @@ section.feature h2 {
     font-size: 1rem;
     font-weight: normal;
     font-style: italic;
-    color: #666;
+    color: #555349;
 }
 
 section.feature img {
     width: 180px;
     margin: 40px 0;
 }
+
+section.toc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.toc a {
+    width: 45%;
+    margin: 0;
+    padding: 4px 8px;
+    margin-bottom: 1%;
+}
+
+section.toc a div::before {
+    content: '- ';
+  }
 
 section.gallery {
     display: flex;
@@ -111,14 +123,26 @@ section.gallery img {
     margin-bottom: 4%;
 }
 
+section.chapter p {
+    text-indent: 2em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+section.chapter p:first-child { 
+    text-indent: 0;
+}
+
+
 footer {
     margin: 32px 0 60px 0;
-    font-size: .8rem;
+    font-size: .6em;
     text-align: center;
-    color: #666;
+    color: #555349;
 }
 
 footer nav {
+    font-size: 1rem;
     margin-bottom: 60px;
     text-align: left;
 }
@@ -129,6 +153,12 @@ footer nav {
     
     body {
         max-width: 90%;
+    }
+
+    section.toc a {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1%;
     }
 
     section.gallery img {
