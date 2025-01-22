@@ -25,7 +25,7 @@ blockquote{
 hr {
     width:20%;
     margin: 40px auto;
-    border: 1px solid #E2D3B3;
+    border: 1px solid #D8D3C8;
 }
 
 header {
@@ -106,7 +106,7 @@ section.toc a {
 }
 
 section.toc a div::before {
-    content: '- ';
+    content: '– ';
   }
 
 section.gallery {
@@ -118,9 +118,11 @@ section.gallery {
 }
 
 section.gallery img {
-    width: 48%;
+    width: 47%;
     margin: 0;
-    margin-bottom: 4%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #D8D3C8;
 }
 
 section.chapter p {
