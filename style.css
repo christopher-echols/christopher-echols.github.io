@@ -3,7 +3,7 @@
 html {
     font-family: "Libre Baskerville", serif;
     scroll-behavior: smooth;
-    background-color: #FAf7EF;
+    background-color: #FBF9F4;
 }
 
 body {
@@ -28,11 +28,23 @@ hr {
     border: 1px solid #D8D3C8;
 }
 
+audio {
+    margin-bottom: 2%;
+    filter: invert(85%);
+}
+
+.flex.center {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
 header {
     position: sticky;
     top: 0;
     padding: 20px 0 16px 0;
-    background-color: #FAf7EF;
+    background-color: #FBF9F4;
     border-bottom: 1px solid #D8D3C8;
 }
 
@@ -123,6 +135,10 @@ section.gallery img {
     padding: 8px;
     margin-bottom: 12px;
     border: 1px solid #D8D3C8;
+}
+
+section.chapter h3 {
+    text-align: center;
 }
 
 section.chapter p {
