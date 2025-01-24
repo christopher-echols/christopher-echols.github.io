@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 html {
     font-family: "Libre Baskerville", serif;
@@ -29,20 +29,19 @@ hr {
 }
 
 audio {
-    margin-bottom: 2%;
+    margin-bottom: 40px;
     filter: invert(85%);
 }
 
 .flex.center {
     width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    text-align: center;
 }
 
 header {
     position: sticky;
     top: 0;
+    z-index: 1;
     padding: 20px 0 16px 0;
     background-color: #FBF9F4;
     border-bottom: 1px solid #D8D3C8;
@@ -100,6 +99,12 @@ section.feature h2 {
 section.feature img {
     width: 180px;
     margin: 40px 0;
+}
+
+section.intro {
+    font-family: "DM Mono", serif;
+    padding-left: 40px;
+    border-left: 1px dashed #D8D3C8;
 }
 
 section.toc {
