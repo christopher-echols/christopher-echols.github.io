@@ -75,8 +75,8 @@ a {
 }
 
 a:hover {
-    color: #000;
-    border-bottom: 1px solid #000;
+    color: #111;
+    border-bottom: 1px solid #111;
 }
 
 section.feature {
@@ -124,7 +124,7 @@ section.toc a {
 
 section.toc a div::before {
     content: '– ';
-  }
+}
 
 section.gallery {
     display: flex;
