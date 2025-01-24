@@ -184,6 +184,10 @@ footer nav {
         margin-bottom: 1%;
     }
 
+    section.intro {
+        padding-left: 10px;
+    }
+
     section.gallery img {
         width: 100%;
         margin: 0;
