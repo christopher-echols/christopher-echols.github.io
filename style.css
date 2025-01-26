@@ -64,7 +64,6 @@ main {
 }
 
 main p {
-    text-align: justify;
     line-height: 2rem;
 }
 
@@ -147,6 +146,7 @@ section.chapter h3 {
 }
 
 section.chapter p {
+    text-align: justify;
     text-indent: 2em;
     margin-block-start: 0;
     margin-block-end: 0;
