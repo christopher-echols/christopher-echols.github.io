@@ -177,6 +177,7 @@ footer nav {
     
     body {
         font-size: 1rem;
+        line-height: 1.2;
         max-width: 90%;
     }
 
@@ -197,10 +198,6 @@ footer nav {
         width: 100%;
         margin: 0;
         margin-bottom: 1%;
-    }
-
-    section.chapter p {
-        font-size: 1.15rem;
     }
 
     section.intro {
