@@ -157,6 +157,9 @@ section.chapter p:first-child {
     text-indent: 0;
 }
 
+section.verse {
+    font-style: italic;
+}
 
 footer {
     margin: 32px 0 60px 0;
