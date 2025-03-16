@@ -3,7 +3,7 @@
 html {
     font-family: "Libre Baskerville", serif;
     scroll-behavior: smooth;
-    background-color: #FFFEFA;
+    background-color: #FAFAF9;
 }
 
 body {
@@ -54,7 +54,7 @@ header {
     top: 0;
     z-index: 1;
     padding: 20px 0 16px 0;
-    background-color: #FFFEFA;
+    background-color: #FAFAF9;
     border-bottom: 1px solid #D8D3C8;
 }
 
