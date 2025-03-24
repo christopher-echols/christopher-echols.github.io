@@ -18,4 +18,4 @@ In my spare time, I draw birds.
 
 ---
 
-<small>This website is built the old fashioned way, using nothing but HTML and CSS. Like any handmade thing, it is imperfect. Please <a href="mailto:echols@hey.com">let me know</a> if you find something broken so I can repair it.</small>
+<small>This website is crafted entirely by hand (with a dash of magic from <a href="https://www.11ty.dev/">11ty</a>). Like any handmade thing, it is imperfect. Please <a href="mailto:echols@hey.com">let me know</a> if you find something broken so I can repair it.</small>
