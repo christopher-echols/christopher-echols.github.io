@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{ title }}</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+
+        <meta property="og:title" content="{{ title }}">
+        <meta name="description" content="{{ description }}"/>
+        <link rel="canonical" href="https://christopherechols.com/{{ page.fileSlug }}.html"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="/index.html"><img src="/assets/ce.png" alt="Home" /></a>
+            </nav>
+        </header>
+        <main>
+            <section class="feature">
+                {% if featureImage %}
+                <img src="{{ featureImage }}" alt="{{ featureImageAlt }}" {% if featureImageStyle %}style="{{ featureImageStyle }}"{% endif %}/>
+                {% endif %}
+                <h1>{{ title }}</h1>
+                <h2>{{ subtitle }}</h2>
+            </section>
+            
+            {{ content }}
+        </main>
+        <footer>
+            <nav>
+                <a href="/index.html">← Home</a>
+            </nav>
+            <p>All content copyright © Christopher Echols</p>
+        </footer>
+    </body>
+</html>
