@@ -1,13 +1,13 @@
 module.exports = function(eleventyConfig) {
-  // More explicit configuration
+
+  // Explicit configuration
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
-  
-  // If you also have JS and images folders:
   eleventyConfig.addPassthroughCopy({ "src/js": "js" });
   eleventyConfig.addPassthroughCopy({ "src/img": "img" });
-  
-  // For any other static assets
   eleventyConfig.addPassthroughCopy({ "src/assets": "/assets" });
+ 
+  // Add CNAME file to be copied to the output
+  eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
   
   return {
     dir: {
